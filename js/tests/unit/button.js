@@ -191,7 +191,7 @@ $(function () {
     assert.expect(1)
 
     if (typeof Button !== 'undefined') {
-      assert.ok(typeof Button.VERSION === 'string')
+      assert.ok(typeof Button.default.VERSION === 'string')
     } else {
       assert.notOk()
     }

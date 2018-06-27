@@ -115,7 +115,7 @@ $(function () {
     assert.expect(1)
 
     if (typeof Alert !== 'undefined') {
-      assert.ok(typeof Alert.VERSION === 'string')
+      assert.ok(typeof Alert.default.VERSION === 'string')
     } else {
       assert.notOk()
     }
