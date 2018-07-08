@@ -83,18 +83,18 @@ Using the contextual `.badge-*` classes on an `<a>` element quickly provide _act
 
 ## Close icon
 
-Create "dismissable" badges with the `.close` icon.
+Create "dismissable" badges by adding the `.close` icon within a badge. No JavaScript is included in Bootstrap to do the dismissing for you, so you'll have to write your own to implement any desired behaviors.
 
 {% capture example %}
 <span class="badge badge-primary">
   Dismissable badge
-  <button type="button" class="close" aria-label="Close">
+  <button type="button" class="close" aria-label="Dismiss">
     <span aria-hidden="true">&times;</span>
   </button>
 </span>
 <a href="#" class="badge badge-secondary">
   Dismissable link badge
-  <button type="button" class="close" aria-label="Close">
+  <button type="button" class="close" aria-label="Dismiss">
     <span aria-hidden="true">&times;</span>
   </button>
 </a>
